@@ -5,10 +5,10 @@
             [ring.util.response :as resp]
             [cheshire.core :as json]))
 
-(def first-names ["amit" "yodan" "niriya" "I Am" "Rocket"
+(def first-names ["nitzan" "yodan" "niriya" "I Am" "Rocket"
                   "james" "yehuda" "rivka" "nirit"])
-(def last-names ["doe" "jones" "groot" "cohen" "ben avi" "biran"
-                "zafrir" "dresden"])
+(def last-names ["doe" "jones" "groot" "cohen" "ben avi" "gavozye"
+                "zichron" "dresden"])
 
 (def data (atom []))
 
